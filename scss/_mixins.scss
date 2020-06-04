@@ -1,0 +1,9 @@
+@mixin look{
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+@mixin box {
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
