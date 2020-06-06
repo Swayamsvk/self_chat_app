@@ -13,13 +13,16 @@
 <body>
     <div id="luigi-chat">
         <div id="chat-window">
-            <div id="output"></div>
+            <div id="output"> <ul id="messages"></ul></div>
             <div id="feedback"></div>
         </div>
         <input id="handle" type="text" placeholder="Name"/>
         <input id="message" type="text" placeholder="Message"/>
+       
         <button id="send">Send</button>
     </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/rexeze/formatTimeStamp/src/index-cdn.js"></script>
     <script src="/chat.js"></script>
 </body>
 </html>
